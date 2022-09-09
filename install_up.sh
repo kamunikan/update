@@ -17,6 +17,8 @@ echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Downloading New Script"
 # wget -q -O /usr/bin/FILENAME "https://raw.githubusercontent.com/kamunikan/update/main/update_file/FILENAME" && chmod +x /usr/bin/FILENAME
 
 wget -q -O /usr/bin/clearlog "https://raw.githubusercontent.com/kamunikan/update/main/update_file/clearlog.sh" && chmod +x /usr/bin/clearlog
+#echo "0 */2 * * * /usr/bin/clearlog" >>/tmp/crontab.xPrSIm/crontab
+
 
 #wget -q -O /usr/bin/menu-ss "https://raw.githubusercontent.com/kamunikan/update/main/update_file/menu-ss.sh" && chmod +x /usr/bin/menu-ss
 #wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/kamunikan/update/main/update_file/menu-vmess.sh" && chmod +x /usr/bin/menu-vmess
