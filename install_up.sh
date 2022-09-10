@@ -11,7 +11,7 @@ export COLBG1="$(cat /etc/scvpn/theme/$colornow | grep -w "BG" | cut -d: -f2|sed
 ###########- END COLOR CODE -##########
 
 echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Remove Old Script"
-rm /usr/bin/menu
+#rm /usr/bin/menu
 sleep 2
 echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Downloading New Script"
 # wget -q -O /usr/bin/FILENAME "https://raw.githubusercontent.com/kamunikan/update/main/update_file/FILENAME" && chmod +x /usr/bin/FILENAME
@@ -20,7 +20,8 @@ wget -q -O /usr/bin/clearlog "https://raw.githubusercontent.com/kamunikan/update
 #echo "0 */2 * * * /usr/bin/clearlog" >>/tmp/crontab.xPrSIm/crontab
 
 
-#wget -q -O /usr/bin/menu-ss "https://raw.githubusercontent.com/kamunikan/update/main/update_file/menu-ss.sh" && chmod +x /usr/bin/menu-ss
+#wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/kamunikan/update/main/update_file/menu.sh" && chmod +x /usr/bin/menu
+
 #wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/kamunikan/update/main/update_file/menu-vmess.sh" && chmod +x /usr/bin/menu-vmess
 #wget -q -O /usr/bin/menu-vless "https://raw.githubusercontent.com/kamunikan/update/main/update_file/menu-vless.sh" && chmod +x /usr/bin/menu-vless
 #wget -q -O /usr/bin/menu-trojan "https://raw.githubusercontent.com/kamunikan/update/main/update_file/menu-trojan.sh" && chmod +x /usr/bin/menu-trojan
