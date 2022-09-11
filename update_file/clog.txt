@@ -3,9 +3,9 @@
   Core : XRAY
   Version V2.8
   
-  Changelog
-   * ADD TORRENT FW
-   * FIX AUTO REBOOT
-   * FIX BOT
-   * FIX HIGHT CPU & RAM USAGE
-   * AUTO CLEAN LOG
+  CHANGELOG
+   * Add Torrent FW
+   * Fix Auto Reboot
+   * Fix Bot Log
+   * Fix Hight Usage CPU & RAM
+   * Add Auto Clean Logs
