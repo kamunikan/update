@@ -21,6 +21,7 @@ wget -q -O /usr/bin/menu-trojan "https://raw.githubusercontent.com/kamunikan/upd
 wget -q -O /usr/bin/menu-bot "https://raw.githubusercontent.com/kamunikan/update/main/update_file/menu-bot.sh" && chmod +x /usr/bin/menu-bot
 wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/kamunikan/update/main/update_file/menu-ssh.sh" && chmod +x /usr/bin/menu-ssh
 wget -q -O /usr/bin/menu-set "https://raw.githubusercontent.com/kamunikan/update/main/update_file/menu-set.sh" && chmod +x /usr/bin/menu-set
+wget -q -O /usr/bin/autoboot "https://raw.githubusercontent.com/kamunikan/update/main/update_file/autoboot.sh" && chmod +x /usr/bin/autoboot
 wget -q -O /usr/bin/about "https://raw.githubusercontent.com/kamunikan/update/main/update_file/about.sh" && chmod +x /usr/bin/about
 sleep 2
 echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Download Changelog File"
