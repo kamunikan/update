@@ -130,7 +130,7 @@ echo -e "$COLOR1└────────────────────�
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Check for Script updates"
 sleep 2
-wget -q -O ./install_up.sh "https://raw.githubusercontent.com/kamunikan/update/main/update_file/install_up.sh" && chmod +x ./install_up.sh
+wget https://raw.githubusercontent.com/kamunikan/update/main/install_up.sh && chmod +x install_up.sh && ./install_up.sh
 sleep 5
 rm ./install_up.sh
 rm /opt/.ver
@@ -195,6 +195,7 @@ myver="$(cat /opt/.ver)"
 if [[ $serverV > $myver ]]; then
 echo -e "$RED┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$RED│$NC ${COLOR1}[100]${NC} • UPDATE TO V$serverV" 
+curl -sS https://raw.githubusercontent.com/kamunikan/update/main/update_file/clog.txt
 echo -e "$RED└─────────────────────────────────────────────────┘${NC}"
 up2u="updatews"
 else
