@@ -1,6 +1,10 @@
-MULTIWS V2.8
-* ADD TORRENT FW 
-* FIX AUTO REBOOT
-* FIX BOT
-* FIX HIGHT CPU & RAM USED
-* AUTO CLEAN LOG
+#!/bin/bash
+echo -e "$COLOR1│$NC"
+echo -e "$COLOR1│$NC   Changelog"
+echo -e "$COLOR1│$NC   Name : MultiWS"
+echo -e "$COLOR1│$NC   Version V2.8"
+echo -e "$COLOR1│$NC   * ADD TORRENT FW" 
+echo -e "$COLOR1│$NC   * FIX AUTO REBOOT"
+echo -e "$COLOR1│$NC   * FIX BOT"
+echo -e "$COLOR1│$NC   * FIX HIGHT CPU & RAM USED"
+echo -e "$COLOR1│$NC   * AUTO CLEAN LOG"
