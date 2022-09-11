@@ -20,6 +20,7 @@ wget -q -O /usr/bin/menu-vless "https://raw.githubusercontent.com/kamunikan/upda
 wget -q -O /usr/bin/menu-trojan "https://raw.githubusercontent.com/kamunikan/update/main/update_file/menu-trojan.sh" && chmod +x /usr/bin/menu-trojan
 wget -q -O /usr/bin/menu-bot "https://raw.githubusercontent.com/kamunikan/update/main/update_file/menu-bot.sh" && chmod +x /usr/bin/menu-bot
 wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/kamunikan/update/main/update_file/menu-ssh.sh" && chmod +x /usr/bin/menu-ssh
+wget -q -O /usr/bin/menu-set "https://raw.githubusercontent.com/kamunikan/update/main/update_file/menu-set.sh" && chmod +x /usr/bin/menu-set
 
 sleep 2
 echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Download Changelog File"
