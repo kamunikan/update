@@ -1,0 +1,10 @@
+
+  Changelog
+  Name : Multiport WebSocket
+  Core : XRAY
+  Version V2.8
+   * ADD TORRENT FW
+   * FIX AUTO REBOOT
+   * FIX BOT
+   * FIX HIGHT CPU & RAM USED
+   * AUTO CLEAN LOG
