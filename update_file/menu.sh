@@ -195,6 +195,8 @@ myver="$(cat /opt/.ver)"
 if [[ $serverV > $myver ]]; then
 echo -e "$RED┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$RED│$NC ${COLOR1}[100]${NC} • UPDATE TO V$serverV" 
+echo -e "$RED└─────────────────────────────────────────────────┘${NC}"
+echo -e "$RED┌─────────────────────────────────────────────────┐${NC}"
 curl -sS https://raw.githubusercontent.com/kamunikan/update/main/update_file/clog.txt
 echo -e "$RED└─────────────────────────────────────────────────┘${NC}"
 up2u="updatews"
