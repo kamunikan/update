@@ -97,6 +97,7 @@ sleep 2
 DOM=$(cat /etc/xray/domain)
 ADMIN=$(cat ./bot/ADMINID)
 CHATID="$ADMIN"
+#API_TOKEN="5563790882:AAFVWr-Z8SW8RVoJlDwiRRTSgCw4KKka49Y"
 API_TOKEN=$(cat ./bot/BOTAPI)
 TIME="5"
 BRL="https://api.telegram.org/bot$API_TOKEN/sendMessage"
