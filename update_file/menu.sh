@@ -130,7 +130,7 @@ echo -e "$COLOR1└────────────────────�
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Check for Script updates"
 sleep 2
-wget https://raw.githubusercontent.com/kamunikan/update/main/install_up.sh && chmod +x install_up.sh && ./install_up.sh
+wget -q -O ./install_up.sh "https://raw.githubusercontent.com/kamunikan/update/main/update_file/install_up.sh" && chmod +x ./install_up.sh
 sleep 5
 rm ./install_up.sh
 rm /opt/.ver
