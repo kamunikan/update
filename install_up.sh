@@ -27,3 +27,11 @@ echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Download Changelog File"
 wget -q -O /root/clog.txt "https://raw.githubusercontent.com/kamunikan/update/main/update_file/clog.txt" && chmod +x /root/clog.txt
 echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Read Clog? ./root/clog.txt"
 sleep 2
+
+cat> /etc/cron.d/cleaner << END
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+0 */2 * * * root /usr/bin/cleaner
+END
+
+service cron restart > /dev/null 2>&1
